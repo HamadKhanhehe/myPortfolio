@@ -1,0 +1,15 @@
+.Tilt {
+    /* display: flex; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Tilt:hover {
+ /* Slight zoom on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+.Tilt:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+  }
+  
